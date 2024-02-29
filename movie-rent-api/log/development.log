@@ -58,3 +58,234 @@ Processing by FilmsController#create as */*
 Completed 201 Created in 51ms (Views: 0.6ms | ActiveRecord: 6.2ms | Allocations: 21586)
 
 
+Started POST "/categories" for 127.0.0.1 at 2024-02-29 16:38:10 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"name"=>"lawea", "description"=>"es una wea cosmica", "category"=>{"name"=>"lawea", "description"=>"es una wea cosmica"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mCategory Create (1.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", "lawea"], ["description", "es una wea cosmica"], ["created_at", "2024-02-29 21:38:10.911951"], ["updated_at", "2024-02-29 21:38:10.911951"]]
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+Completed 201 Created in 12ms (Views: 0.4ms | ActiveRecord: 6.7ms | Allocations: 4881)
+
+
+Started POST "/categories" for 127.0.0.1 at 2024-02-29 16:41:19 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"name"=>"adsadsa", "description"=>"dasdsadsadas", "category"=>{"name"=>"adsadsa", "description"=>"dasdsadsadas"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mCategory Create (1.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", "adsadsa"], ["description", "dasdsadsadas"], ["created_at", "2024-02-29 21:41:19.595044"], ["updated_at", "2024-02-29 21:41:19.595044"]]
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+Completed 201 Created in 4ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 1695)
+
+
+Started POST "/categories" for 127.0.0.1 at 2024-02-29 16:41:57 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"name"=>"adsasdasda", "description"=>"dsadasdsadasdas", "category"=>{"name"=>"adsasdasda", "description"=>"dsadasdsadasdas"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mCategory Create (1.0ms)[0m  [1m[32mINSERT INTO "categories" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", "adsasdasda"], ["description", "dsadasdsadasdas"], ["created_at", "2024-02-29 21:41:57.624866"], ["updated_at", "2024-02-29 21:41:57.624866"]]
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+Completed 201 Created in 3ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 1694)
+
+
+Started POST "/categories" for 127.0.0.1 at 2024-02-29 16:42:23 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"name"=>"dsadasd", "description"=>"dsadasdas", "category"=>{"name"=>"dsadasd", "description"=>"dsadasdas"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mCategory Create (0.9ms)[0m  [1m[32mINSERT INTO "categories" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", "dsadasd"], ["description", "dsadasdas"], ["created_at", "2024-02-29 21:42:23.155456"], ["updated_at", "2024-02-29 21:42:23.155456"]]
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+Completed 201 Created in 3ms (Views: 0.4ms | ActiveRecord: 1.1ms | Allocations: 1678)
+
+
+Started POST "/categories" for 127.0.0.1 at 2024-02-29 16:42:32 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"name"=>"dsadasdas", "description"=>"dsadasdasd", "category"=>{"name"=>"dsadasdas", "description"=>"dsadasdasd"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mCategory Create (1.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", "dsadasdas"], ["description", "dsadasdasd"], ["created_at", "2024-02-29 21:42:32.389873"], ["updated_at", "2024-02-29 21:42:32.389873"]]
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+Completed 201 Created in 3ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 1694)
+
+
+Started POST "/categories" for 127.0.0.1 at 2024-02-29 16:42:46 -0500
+Processing by CategoriesController#create as HTML
+  Parameters: {"name"=>"dasdasdas", "description"=>"dsadasdsadas", "category"=>{"name"=>"dasdasdas", "description"=>"dsadasdsadas"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mCategory Create (1.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?) RETURNING "id"[0m  [["name", "dasdasdas"], ["description", "dsadasdsadas"], ["created_at", "2024-02-29 21:42:46.021454"], ["updated_at", "2024-02-29 21:42:46.021454"]]
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:20:in `create'
+Completed 201 Created in 4ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 1677)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:52:26 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 2.1ms | ActiveRecord: 1.4ms | Allocations: 4614)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:53:56 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:56:20 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:57:49 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:57:51 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:58:18 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:59:19 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:59:25 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:59:31 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 16:59:47 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:00:00 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:00:52 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (9.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 1.9ms | ActiveRecord: 9.1ms | Allocations: 936)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:01:08 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:04:07 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:04:30 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:04:38 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:04:41 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:04:42 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:04:57 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 936)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:05:12 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
+Started POST "/films" for 127.0.0.1 at 2024-02-29 17:05:40 -0500
+Processing by FilmsController#create as HTML
+  Parameters: {"title"=>"dasdas", "description"=>"dsadasda", "year"=>"2021/10/05", "rental_duration"=>"123", "rating"=>"3", "duration"=>"123", "rental_price"=>"321312", "film"=>{"title"=>"dasdas", "description"=>"dsadasda", "year"=>"2021/10/05", "rental_duration"=>"123", "rating"=>"3", "duration"=>"123", "rental_price"=>"321312"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/films_controller.rb:20:in `create'
+  [1m[36mFilm Create (0.9ms)[0m  [1m[32mINSERT INTO "films" ("title", "description", "year", "rental_duration", "rating", "duration", "rental_price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", "dasdas"], ["description", "dsadasda"], ["year", nil], ["rental_duration", 123], ["rating", 3.0], ["duration", 123], ["rental_price", 321312], ["created_at", "2024-02-29 22:05:40.271660"], ["updated_at", "2024-02-29 22:05:40.271660"]]
+  ↳ app/controllers/films_controller.rb:20:in `create'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/films_controller.rb:20:in `create'
+Completed 201 Created in 5ms (Views: 0.3ms | ActiveRecord: 2.8ms | Allocations: 1862)
+
+
+Started GET "/categories" for 127.0.0.1 at 2024-02-29 17:05:53 -0500
+Processing by CategoriesController#index as HTML
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/controllers/categories_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 935)
+
+
